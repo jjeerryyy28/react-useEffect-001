@@ -1,0 +1,33 @@
+.recipe-app {
+  text-align: center;
+  padding: 20px;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+}
+
+.recipe h2 {
+  margin-top: 0;
+}
+
+.recipe img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
